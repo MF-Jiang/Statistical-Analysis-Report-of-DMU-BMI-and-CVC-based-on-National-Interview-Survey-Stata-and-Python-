@@ -1,7 +1,7 @@
 # Statistical-Analysis-Report-of-DMU-BMI-and-CVC-based-on-National-Interview-Survey-Stata-and-Python
 This is the content of the statistics placement exam of Weill Cornell's health informatics. In the library are the scripts and reports I made at that time.
 
-Your task is to provide an statistical report (you select the format) by analyzing a data set from the National Interview Survey(https://www.cdc.gov/nchs/nhis/2022nhis.htm). This dataset is available  as attachment to this exam and was sourced  from adult22csv.zip.Links to an external site.
+Your task is to provide an statistical report (you select the format) by analyzing a data set from the National Interview Survey(https://www.cdc.gov/nchs/nhis/2022nhis.htm). This dataset is available  as attachment to this exam and was sourced  from adult22csv.Links to an external site.
 
 The codebook to the dataset is available at adult-codebook.pdfLinks to an external site. 
 
