@@ -17,9 +17,10 @@ Some studies has suggested that life styles are associated with cardiovascular d
 
 5. Provide as appendix or attachments (5 points)
    
-A. the source code for such analysis,
+   A. the source code for such analysis,
 
-B. the raw outputs of your code .
+   B. the raw outputs of your code.
+   
 
 Statistics Report Criteria
 
