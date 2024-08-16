@@ -1,4 +1,4 @@
-# Statistical-Analysis-Report-of-DMU-BMI-and-CVC-based-on-National-Interview-Survey-Stata-and-Python-
+# Statistical-Analysis-Report-of-DMU-BMI-and-CVC-based-on-National-Interview-Survey-Stata-and-Python
 This is the content of the statistics placement exam of Weill Cornell's health informatics. In the library are the scripts and reports I made at that time.
 
 Your task is to provide an statistical report (you select the format) by analyzing a data set from the National Interview Survey(https://www.cdc.gov/nchs/nhis/2022nhis.htm). This dataset is available  as attachment to this exam and was sourced  from adult22csv.zip.Links to an external site.
@@ -26,20 +26,20 @@ Statistics Report Criteria
 
 a. Table 1
 
-Table 1 includes 3 demographic variables provides absolute numbers and proportions
+   Table 1 includes 3 demographic variables provides absolute numbers and proportions
 
 b. Differences
 
-Table 1 is used to present the difference in lifestyles
+   Table 1 is used to present the difference in lifestyles
 
 c. Regression, Association or Correlation analysis
 
-Students present an analysis that is informed properly by a hypothesis, factors and outcomes are properly differentiate, and a significance is interpreted
+   Students present an analysis that is informed properly by a hypothesis, factors and outcomes are properly differentiate, and a significance is interpreted
 
 d. Methods justification
 
-Student explain clearly the reason to select the methods
+   Student explain clearly the reason to select the methods
 
 e. Source code
 
-The source code and the output are consistent
+   The source code and the output are consistent
