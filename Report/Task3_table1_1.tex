@@ -1,0 +1,971 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{ulem}
+\usepackage[table]{xcolor}
+\begin{document}
+\begin{tabular}{lllllllll}
+\cline{1-9}
+\multicolumn{1}{c}{} &
+  \multicolumn{2}{|c}{Coronary Heart Disease} &
+  \multicolumn{2}{c}{Angina} &
+  \multicolumn{2}{c}{Heart Attack} &
+  \multicolumn{2}{c}{Stroke} \\
+\multicolumn{1}{c}{} &
+  \multicolumn{1}{|r}{Diagnosed} &
+  \multicolumn{1}{r}{Undiagnosed} &
+  \multicolumn{1}{r}{Diagnosed} &
+  \multicolumn{1}{r}{Undiagnosed} &
+  \multicolumn{1}{r}{Diagnosed} &
+  \multicolumn{1}{r}{Undiagnosed} &
+  \multicolumn{1}{r}{Diagnosed} &
+  \multicolumn{1}{r}{Undiagnosed} \\
+\cline{1-9}
+\multicolumn{1}{l}{Number of times eat other vegetables} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{1em}Never} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{2em}Number of times eat pizza} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{3em}Never} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{11.42857} &
+  \multicolumn{1}{r}{88.57143} &
+  \multicolumn{1}{r}{2.142857} &
+  \multicolumn{1}{r}{97.85714} &
+  \multicolumn{1}{r}{6.428571} &
+  \multicolumn{1}{r}{93.57143} &
+  \multicolumn{1}{r}{7.142857} &
+  \multicolumn{1}{r}{92.85714} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{7.142857} &
+  \multicolumn{1}{r}{92.85714} &
+  \multicolumn{1}{r}{7.142857} &
+  \multicolumn{1}{r}{92.85714} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{6.557377} &
+  \multicolumn{1}{r}{93.44262} &
+  \multicolumn{1}{r}{3.278689} &
+  \multicolumn{1}{r}{96.72131} &
+  \multicolumn{1}{r}{8.196721} &
+  \multicolumn{1}{r}{91.80328} &
+  \multicolumn{1}{r}{9.836066} &
+  \multicolumn{1}{r}{90.16393} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{7.8125} &
+  \multicolumn{1}{r}{92.1875} &
+  \multicolumn{1}{r}{4.6875} &
+  \multicolumn{1}{r}{95.3125} &
+  \multicolumn{1}{r}{1.5625} &
+  \multicolumn{1}{r}{98.4375} &
+  \multicolumn{1}{r}{7.8125} &
+  \multicolumn{1}{r}{92.1875} \\
+\multicolumn{1}{l}{\hspace{3em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{3em}Weekly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{12} &
+  \multicolumn{1}{r}{88} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{8} &
+  \multicolumn{1}{r}{92} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{6.666667} &
+  \multicolumn{1}{r}{93.33333} &
+  \multicolumn{1}{r}{6.666667} &
+  \multicolumn{1}{r}{93.33333} &
+  \multicolumn{1}{r}{13.33333} &
+  \multicolumn{1}{r}{86.66667} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{8.275862} &
+  \multicolumn{1}{r}{91.72414} &
+  \multicolumn{1}{r}{1.37931} &
+  \multicolumn{1}{r}{98.62069} &
+  \multicolumn{1}{r}{1.37931} &
+  \multicolumn{1}{r}{98.62069} &
+  \multicolumn{1}{r}{2.068966} &
+  \multicolumn{1}{r}{97.93103} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{5.555556} &
+  \multicolumn{1}{r}{94.44444} &
+  \multicolumn{1}{r}{2.777778} &
+  \multicolumn{1}{r}{97.22222} &
+  \multicolumn{1}{r}{2.777778} &
+  \multicolumn{1}{r}{97.22222} &
+  \multicolumn{1}{r}{11.11111} &
+  \multicolumn{1}{r}{88.88889} \\
+\multicolumn{1}{l}{\hspace{3em}Monthly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{7.070707} &
+  \multicolumn{1}{r}{92.92929} &
+  \multicolumn{1}{r}{3.030303} &
+  \multicolumn{1}{r}{96.9697} &
+  \multicolumn{1}{r}{6.060606} &
+  \multicolumn{1}{r}{93.93939} &
+  \multicolumn{1}{r}{3.030303} &
+  \multicolumn{1}{r}{96.9697} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{22.22222} &
+  \multicolumn{1}{r}{77.77778} &
+  \multicolumn{1}{r}{5.555556} &
+  \multicolumn{1}{r}{94.44444} &
+  \multicolumn{1}{r}{11.11111} &
+  \multicolumn{1}{r}{88.88889} &
+  \multicolumn{1}{r}{16.66667} &
+  \multicolumn{1}{r}{83.33333} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{10.17964} &
+  \multicolumn{1}{r}{89.82036} &
+  \multicolumn{1}{r}{1.197605} &
+  \multicolumn{1}{r}{98.8024} &
+  \multicolumn{1}{r}{4.790419} &
+  \multicolumn{1}{r}{95.20958} &
+  \multicolumn{1}{r}{3.592814} &
+  \multicolumn{1}{r}{96.40719} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{5.970149} &
+  \multicolumn{1}{r}{94.02985} &
+  \multicolumn{1}{r}{1.99005} &
+  \multicolumn{1}{r}{98.00995} &
+  \multicolumn{1}{r}{3.482587} &
+  \multicolumn{1}{r}{96.51741} &
+  \multicolumn{1}{r}{3.9801} &
+  \multicolumn{1}{r}{96.0199} \\
+\multicolumn{1}{l}{\hspace{1em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{2em}Number of times eat pizza} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{3em}Never} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{7.182941} &
+  \multicolumn{1}{r}{92.81706} &
+  \multicolumn{1}{r}{2.469136} &
+  \multicolumn{1}{r}{97.53086} &
+  \multicolumn{1}{r}{4.040404} &
+  \multicolumn{1}{r}{95.9596} &
+  \multicolumn{1}{r}{3.928171} &
+  \multicolumn{1}{r}{96.07183} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{18.75} &
+  \multicolumn{1}{r}{81.25} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{9.375} &
+  \multicolumn{1}{r}{90.625} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{4.968944} &
+  \multicolumn{1}{r}{95.03106} &
+  \multicolumn{1}{r}{2.484472} &
+  \multicolumn{1}{r}{97.51553} &
+  \multicolumn{1}{r}{3.416149} &
+  \multicolumn{1}{r}{96.58385} &
+  \multicolumn{1}{r}{3.416149} &
+  \multicolumn{1}{r}{96.58385} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{8.073394} &
+  \multicolumn{1}{r}{91.92661} &
+  \multicolumn{1}{r}{2.385321} &
+  \multicolumn{1}{r}{97.61468} &
+  \multicolumn{1}{r}{5.321101} &
+  \multicolumn{1}{r}{94.6789} &
+  \multicolumn{1}{r}{3.119266} &
+  \multicolumn{1}{r}{96.88073} \\
+\multicolumn{1}{l}{\hspace{3em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{15.38462} &
+  \multicolumn{1}{r}{84.61538} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{9.677419} &
+  \multicolumn{1}{r}{90.32258} &
+  \multicolumn{1}{r}{3.225806} &
+  \multicolumn{1}{r}{96.77419} &
+  \multicolumn{1}{r}{3.225806} &
+  \multicolumn{1}{r}{96.77419} &
+  \multicolumn{1}{r}{9.677419} &
+  \multicolumn{1}{r}{90.32258} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{18.75} &
+  \multicolumn{1}{r}{81.25} &
+  \multicolumn{1}{r}{6.25} &
+  \multicolumn{1}{r}{93.75} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{6.25} &
+  \multicolumn{1}{r}{93.75} \\
+\multicolumn{1}{l}{\hspace{3em}Weekly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{6.477733} &
+  \multicolumn{1}{r}{93.52227} &
+  \multicolumn{1}{r}{2.42915} &
+  \multicolumn{1}{r}{97.57085} &
+  \multicolumn{1}{r}{3.238866} &
+  \multicolumn{1}{r}{96.76113} &
+  \multicolumn{1}{r}{3.238866} &
+  \multicolumn{1}{r}{96.76113} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{2.272727} &
+  \multicolumn{1}{r}{97.72727} &
+  \multicolumn{1}{r}{2.272727} &
+  \multicolumn{1}{r}{97.72727} &
+  \multicolumn{1}{r}{3.409091} &
+  \multicolumn{1}{r}{96.59091} &
+  \multicolumn{1}{r}{2.272727} &
+  \multicolumn{1}{r}{97.72727} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{4.036697} &
+  \multicolumn{1}{r}{95.9633} &
+  \multicolumn{1}{r}{1.651376} &
+  \multicolumn{1}{r}{98.34862} &
+  \multicolumn{1}{r}{2.385321} &
+  \multicolumn{1}{r}{97.61468} &
+  \multicolumn{1}{r}{2.568807} &
+  \multicolumn{1}{r}{97.43119} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{4.139434} &
+  \multicolumn{1}{r}{95.86057} &
+  \multicolumn{1}{r}{1.960784} &
+  \multicolumn{1}{r}{98.03922} &
+  \multicolumn{1}{r}{2.396514} &
+  \multicolumn{1}{r}{97.60349} &
+  \multicolumn{1}{r}{3.267974} &
+  \multicolumn{1}{r}{96.73203} \\
+\multicolumn{1}{l}{\hspace{3em}Monthly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{6.325301} &
+  \multicolumn{1}{r}{93.6747} &
+  \multicolumn{1}{r}{2.108434} &
+  \multicolumn{1}{r}{97.89157} &
+  \multicolumn{1}{r}{3.012048} &
+  \multicolumn{1}{r}{96.98795} &
+  \multicolumn{1}{r}{4.417671} &
+  \multicolumn{1}{r}{95.58233} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{7.758621} &
+  \multicolumn{1}{r}{92.24138} &
+  \multicolumn{1}{r}{4.310345} &
+  \multicolumn{1}{r}{95.68966} &
+  \multicolumn{1}{r}{7.758621} &
+  \multicolumn{1}{r}{92.24138} &
+  \multicolumn{1}{r}{5.172414} &
+  \multicolumn{1}{r}{94.82759} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{6.081081} &
+  \multicolumn{1}{r}{93.91892} &
+  \multicolumn{1}{r}{1.689189} &
+  \multicolumn{1}{r}{98.31081} &
+  \multicolumn{1}{r}{3.65991} &
+  \multicolumn{1}{r}{96.34009} &
+  \multicolumn{1}{r}{3.153153} &
+  \multicolumn{1}{r}{96.84685} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{5.844418} &
+  \multicolumn{1}{r}{94.15558} &
+  \multicolumn{1}{r}{1.773478} &
+  \multicolumn{1}{r}{98.22652} &
+  \multicolumn{1}{r}{2.982668} &
+  \multicolumn{1}{r}{97.01733} &
+  \multicolumn{1}{r}{3.546957} &
+  \multicolumn{1}{r}{96.45304} \\
+\multicolumn{1}{l}{\hspace{1em}Weekly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{2em}Number of times eat pizza} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{3em}Never} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{10.78014} &
+  \multicolumn{1}{r}{89.21986} &
+  \multicolumn{1}{r}{3.120567} &
+  \multicolumn{1}{r}{96.87943} &
+  \multicolumn{1}{r}{5.390071} &
+  \multicolumn{1}{r}{94.60993} &
+  \multicolumn{1}{r}{4.964539} &
+  \multicolumn{1}{r}{95.03546} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{11.42857} &
+  \multicolumn{1}{r}{88.57143} &
+  \multicolumn{1}{r}{5.714286} &
+  \multicolumn{1}{r}{94.28571} &
+  \multicolumn{1}{r}{8.571429} &
+  \multicolumn{1}{r}{91.42857} &
+  \multicolumn{1}{r}{8.571429} &
+  \multicolumn{1}{r}{91.42857} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{8.350731} &
+  \multicolumn{1}{r}{91.64927} &
+  \multicolumn{1}{r}{3.131524} &
+  \multicolumn{1}{r}{96.86848} &
+  \multicolumn{1}{r}{4.80167} &
+  \multicolumn{1}{r}{95.19833} &
+  \multicolumn{1}{r}{5.845511} &
+  \multicolumn{1}{r}{94.15449} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{8.684864} &
+  \multicolumn{1}{r}{91.31514} &
+  \multicolumn{1}{r}{2.48139} &
+  \multicolumn{1}{r}{97.51861} &
+  \multicolumn{1}{r}{4.218362} &
+  \multicolumn{1}{r}{95.78164} &
+  \multicolumn{1}{r}{6.451613} &
+  \multicolumn{1}{r}{93.54839} \\
+\multicolumn{1}{l}{\hspace{3em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{11.11111} &
+  \multicolumn{1}{r}{88.88889} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{20} &
+  \multicolumn{1}{r}{80} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{20} &
+  \multicolumn{1}{r}{80} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{5.882353} &
+  \multicolumn{1}{r}{94.11765} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{7.142857} &
+  \multicolumn{1}{r}{92.85714} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{7.142857} &
+  \multicolumn{1}{r}{92.85714} &
+  \multicolumn{1}{r}{14.28571} &
+  \multicolumn{1}{r}{85.71429} \\
+\multicolumn{1}{l}{\hspace{3em}Weekly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{7.534247} &
+  \multicolumn{1}{r}{92.46575} &
+  \multicolumn{1}{r}{2.054795} &
+  \multicolumn{1}{r}{97.94521} &
+  \multicolumn{1}{r}{2.739726} &
+  \multicolumn{1}{r}{97.26027} &
+  \multicolumn{1}{r}{.6849315} &
+  \multicolumn{1}{r}{99.31507} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{1.449275} &
+  \multicolumn{1}{r}{98.55072} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{2.898551} &
+  \multicolumn{1}{r}{97.10145} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{4.579393} &
+  \multicolumn{1}{r}{95.42061} &
+  \multicolumn{1}{r}{1.692384} &
+  \multicolumn{1}{r}{98.30762} &
+  \multicolumn{1}{r}{2.887008} &
+  \multicolumn{1}{r}{97.11299} &
+  \multicolumn{1}{r}{2.588352} &
+  \multicolumn{1}{r}{97.41165} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{5.092593} &
+  \multicolumn{1}{r}{94.90741} &
+  \multicolumn{1}{r}{.6944444} &
+  \multicolumn{1}{r}{99.30556} &
+  \multicolumn{1}{r}{3.240741} &
+  \multicolumn{1}{r}{96.75926} &
+  \multicolumn{1}{r}{2.083333} &
+  \multicolumn{1}{r}{97.91667} \\
+\multicolumn{1}{l}{\hspace{3em}Monthly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{8.041958} &
+  \multicolumn{1}{r}{91.95804} &
+  \multicolumn{1}{r}{1.864802} &
+  \multicolumn{1}{r}{98.1352} &
+  \multicolumn{1}{r}{3.962704} &
+  \multicolumn{1}{r}{96.0373} &
+  \multicolumn{1}{r}{4.079254} &
+  \multicolumn{1}{r}{95.92075} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{7.936508} &
+  \multicolumn{1}{r}{92.06349} &
+  \multicolumn{1}{r}{4.761905} &
+  \multicolumn{1}{r}{95.2381} &
+  \multicolumn{1}{r}{3.174603} &
+  \multicolumn{1}{r}{96.8254} &
+  \multicolumn{1}{r}{3.174603} &
+  \multicolumn{1}{r}{96.8254} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{5.583174} &
+  \multicolumn{1}{r}{94.41683} &
+  \multicolumn{1}{r}{1.873805} &
+  \multicolumn{1}{r}{98.1262} &
+  \multicolumn{1}{r}{3.632887} &
+  \multicolumn{1}{r}{96.36711} &
+  \multicolumn{1}{r}{3.32696} &
+  \multicolumn{1}{r}{96.67304} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{6.483791} &
+  \multicolumn{1}{r}{93.51621} &
+  \multicolumn{1}{r}{1.795511} &
+  \multicolumn{1}{r}{98.20449} &
+  \multicolumn{1}{r}{3.541147} &
+  \multicolumn{1}{r}{96.45885} &
+  \multicolumn{1}{r}{2.942643} &
+  \multicolumn{1}{r}{97.05736} \\
+\multicolumn{1}{l}{\hspace{1em}Monthly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{2em}Number of times eat pizza} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{3em}Never} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{10.94527} &
+  \multicolumn{1}{r}{89.05473} &
+  \multicolumn{1}{r}{2.487562} &
+  \multicolumn{1}{r}{97.51244} &
+  \multicolumn{1}{r}{8.955224} &
+  \multicolumn{1}{r}{91.04478} &
+  \multicolumn{1}{r}{7.960199} &
+  \multicolumn{1}{r}{92.0398} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{40} &
+  \multicolumn{1}{r}{60} &
+  \multicolumn{1}{r}{20} &
+  \multicolumn{1}{r}{80} &
+  \multicolumn{1}{r}{20} &
+  \multicolumn{1}{r}{80} &
+  \multicolumn{1}{r}{20} &
+  \multicolumn{1}{r}{80} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{9.375} &
+  \multicolumn{1}{r}{90.625} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{7.8125} &
+  \multicolumn{1}{r}{92.1875} &
+  \multicolumn{1}{r}{4.6875} &
+  \multicolumn{1}{r}{95.3125} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{11.73184} &
+  \multicolumn{1}{r}{88.26816} &
+  \multicolumn{1}{r}{3.351955} &
+  \multicolumn{1}{r}{96.64804} &
+  \multicolumn{1}{r}{6.98324} &
+  \multicolumn{1}{r}{93.01676} &
+  \multicolumn{1}{r}{6.703911} &
+  \multicolumn{1}{r}{93.29609} \\
+\multicolumn{1}{l}{\hspace{3em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{25} &
+  \multicolumn{1}{r}{75} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{14.28571} &
+  \multicolumn{1}{r}{85.71429} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{14.28571} &
+  \multicolumn{1}{r}{85.71429} \\
+\multicolumn{1}{l}{\hspace{3em}Weekly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{5.714286} &
+  \multicolumn{1}{r}{94.28571} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{5.714286} &
+  \multicolumn{1}{r}{94.28571} &
+  \multicolumn{1}{r}{5.714286} &
+  \multicolumn{1}{r}{94.28571} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{9.090909} &
+  \multicolumn{1}{r}{90.90909} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{100} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{3.703704} &
+  \multicolumn{1}{r}{96.2963} &
+  \multicolumn{1}{r}{1.851852} &
+  \multicolumn{1}{r}{98.14815} &
+  \multicolumn{1}{r}{2.469136} &
+  \multicolumn{1}{r}{97.53086} &
+  \multicolumn{1}{r}{2.469136} &
+  \multicolumn{1}{r}{97.53086} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{2.222222} &
+  \multicolumn{1}{r}{97.77778} &
+  \multicolumn{1}{r}{2.962963} &
+  \multicolumn{1}{r}{97.03704} &
+  \multicolumn{1}{r}{2.962963} &
+  \multicolumn{1}{r}{97.03704} &
+  \multicolumn{1}{r}{2.222222} &
+  \multicolumn{1}{r}{97.77778} \\
+\multicolumn{1}{l}{\hspace{3em}Monthly} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{4em}Number of times eat fried potatoes} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{l}{\hspace{5em}Never} &
+  \multicolumn{1}{|r}{7.142857} &
+  \multicolumn{1}{r}{92.85714} &
+  \multicolumn{1}{r}{3.416149} &
+  \multicolumn{1}{r}{96.58385} &
+  \multicolumn{1}{r}{5.590062} &
+  \multicolumn{1}{r}{94.40994} &
+  \multicolumn{1}{r}{7.142857} &
+  \multicolumn{1}{r}{92.85714} \\
+\multicolumn{1}{l}{\hspace{5em}Daily} &
+  \multicolumn{1}{|r}{5} &
+  \multicolumn{1}{r}{95} &
+  \multicolumn{1}{r}{2.5} &
+  \multicolumn{1}{r}{97.5} &
+  \multicolumn{1}{r}{10} &
+  \multicolumn{1}{r}{90} &
+  \multicolumn{1}{r}{2.5} &
+  \multicolumn{1}{r}{97.5} \\
+\multicolumn{1}{l}{\hspace{5em}Weekly} &
+  \multicolumn{1}{|r}{7.512953} &
+  \multicolumn{1}{r}{92.48705} &
+  \multicolumn{1}{r}{1.554404} &
+  \multicolumn{1}{r}{98.4456} &
+  \multicolumn{1}{r}{3.88601} &
+  \multicolumn{1}{r}{96.11399} &
+  \multicolumn{1}{r}{2.849741} &
+  \multicolumn{1}{r}{97.15026} \\
+\multicolumn{1}{l}{\hspace{5em}Monthly} &
+  \multicolumn{1}{|r}{5.733333} &
+  \multicolumn{1}{r}{94.26667} &
+  \multicolumn{1}{r}{1.688889} &
+  \multicolumn{1}{r}{98.31111} &
+  \multicolumn{1}{r}{3.422222} &
+  \multicolumn{1}{r}{96.57778} &
+  \multicolumn{1}{r}{3.244444} &
+  \multicolumn{1}{r}{96.75556} \\
+\cline{1-9}
+\end{tabular}
+\end{document}

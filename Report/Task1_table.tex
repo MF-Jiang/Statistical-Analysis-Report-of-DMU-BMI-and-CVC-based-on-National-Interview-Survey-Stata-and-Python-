@@ -1,0 +1,575 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{ulem}
+\usepackage[table]{xcolor}
+\begin{document}
+\begin{tabular}{lllllllll}
+\cline{1-9}
+\multicolumn{1}{c}{} &
+  \multicolumn{2}{|c}{Coronary Heart Disease} &
+  \multicolumn{2}{c}{Angina} &
+  \multicolumn{2}{c}{Heart Attack} &
+  \multicolumn{2}{c}{Stroke} \\
+\multicolumn{1}{c}{} &
+  \multicolumn{1}{|r}{Diagnosed} &
+  \multicolumn{1}{r}{Undiagnosed} &
+  \multicolumn{1}{r}{Diagnosed} &
+  \multicolumn{1}{r}{Undiagnosed} &
+  \multicolumn{1}{r}{Diagnosed} &
+  \multicolumn{1}{r}{Undiagnosed} &
+  \multicolumn{1}{r}{Diagnosed} &
+  \multicolumn{1}{r}{Undiagnosed} \\
+\cline{1-9}
+\multicolumn{1}{r}{AGE} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{18-40\hspace{1em}} &
+  \multicolumn{1}{|r}{24} &
+  \multicolumn{1}{r}{7,290} &
+  \multicolumn{1}{r}{17} &
+  \multicolumn{1}{r}{7,297} &
+  \multicolumn{1}{r}{21} &
+  \multicolumn{1}{r}{7,293} &
+  \multicolumn{1}{r}{35} &
+  \multicolumn{1}{r}{7,279} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(0.33\%)} &
+  \multicolumn{1}{r}{(99.67\%)} &
+  \multicolumn{1}{r}{(0.23\%)} &
+  \multicolumn{1}{r}{(99.77\%)} &
+  \multicolumn{1}{r}{(0.29\%)} &
+  \multicolumn{1}{r}{(99.71\%)} &
+  \multicolumn{1}{r}{(0.48\%)} &
+  \multicolumn{1}{r}{(99.52\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{41-60\hspace{1em}} &
+  \multicolumn{1}{|r}{211} &
+  \multicolumn{1}{r}{7,174} &
+  \multicolumn{1}{r}{85} &
+  \multicolumn{1}{r}{7,300} &
+  \multicolumn{1}{r}{158} &
+  \multicolumn{1}{r}{7,227} &
+  \multicolumn{1}{r}{159} &
+  \multicolumn{1}{r}{7,226} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(2.86\%)} &
+  \multicolumn{1}{r}{(97.14\%)} &
+  \multicolumn{1}{r}{(1.15\%)} &
+  \multicolumn{1}{r}{(98.85\%)} &
+  \multicolumn{1}{r}{(2.14\%)} &
+  \multicolumn{1}{r}{(97.86\%)} &
+  \multicolumn{1}{r}{(2.15\%)} &
+  \multicolumn{1}{r}{(97.85\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{61-80\hspace{1em}} &
+  \multicolumn{1}{|r}{1,003} &
+  \multicolumn{1}{r}{7,445} &
+  \multicolumn{1}{r}{299} &
+  \multicolumn{1}{r}{8,149} &
+  \multicolumn{1}{r}{576} &
+  \multicolumn{1}{r}{7,872} &
+  \multicolumn{1}{r}{519} &
+  \multicolumn{1}{r}{7,929} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(11.87\%)} &
+  \multicolumn{1}{r}{(88.13\%)} &
+  \multicolumn{1}{r}{(3.54\%)} &
+  \multicolumn{1}{r}{(96.46\%)} &
+  \multicolumn{1}{r}{(6.82\%)} &
+  \multicolumn{1}{r}{(93.18\%)} &
+  \multicolumn{1}{r}{(6.14\%)} &
+  \multicolumn{1}{r}{(93.86\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{81+\hspace{1em}} &
+  \multicolumn{1}{|r}{344} &
+  \multicolumn{1}{r}{1,341} &
+  \multicolumn{1}{r}{91} &
+  \multicolumn{1}{r}{1,594} &
+  \multicolumn{1}{r}{156} &
+  \multicolumn{1}{r}{1,529} &
+  \multicolumn{1}{r}{192} &
+  \multicolumn{1}{r}{1,493} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(20.42\%)} &
+  \multicolumn{1}{r}{(79.58\%)} &
+  \multicolumn{1}{r}{(5.40\%)} &
+  \multicolumn{1}{r}{(94.60\%)} &
+  \multicolumn{1}{r}{(9.26\%)} &
+  \multicolumn{1}{r}{(90.74\%)} &
+  \multicolumn{1}{r}{(11.39\%)} &
+  \multicolumn{1}{r}{(88.61\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{SEX} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Male\hspace{1em}} &
+  \multicolumn{1}{|r}{932} &
+  \multicolumn{1}{r}{10,327} &
+  \multicolumn{1}{r}{272} &
+  \multicolumn{1}{r}{10,987} &
+  \multicolumn{1}{r}{594} &
+  \multicolumn{1}{r}{10,665} &
+  \multicolumn{1}{r}{392} &
+  \multicolumn{1}{r}{10,867} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(8.28\%)} &
+  \multicolumn{1}{r}{(91.72\%)} &
+  \multicolumn{1}{r}{(2.42\%)} &
+  \multicolumn{1}{r}{(97.58\%)} &
+  \multicolumn{1}{r}{(5.28\%)} &
+  \multicolumn{1}{r}{(94.72\%)} &
+  \multicolumn{1}{r}{(3.48\%)} &
+  \multicolumn{1}{r}{(96.52\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Female\hspace{1em}} &
+  \multicolumn{1}{|r}{650} &
+  \multicolumn{1}{r}{12,923} &
+  \multicolumn{1}{r}{220} &
+  \multicolumn{1}{r}{13,353} &
+  \multicolumn{1}{r}{317} &
+  \multicolumn{1}{r}{13,256} &
+  \multicolumn{1}{r}{513} &
+  \multicolumn{1}{r}{13,060} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(4.79\%)} &
+  \multicolumn{1}{r}{(95.21\%)} &
+  \multicolumn{1}{r}{(1.62\%)} &
+  \multicolumn{1}{r}{(98.38\%)} &
+  \multicolumn{1}{r}{(2.34\%)} &
+  \multicolumn{1}{r}{(97.66\%)} &
+  \multicolumn{1}{r}{(3.78\%)} &
+  \multicolumn{1}{r}{(96.22\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{RACE} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{White only\hspace{1em}} &
+  \multicolumn{1}{|r}{1,330} &
+  \multicolumn{1}{r}{18,191} &
+  \multicolumn{1}{r}{419} &
+  \multicolumn{1}{r}{19,102} &
+  \multicolumn{1}{r}{772} &
+  \multicolumn{1}{r}{18,749} &
+  \multicolumn{1}{r}{707} &
+  \multicolumn{1}{r}{18,814} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(6.81\%)} &
+  \multicolumn{1}{r}{(93.19\%)} &
+  \multicolumn{1}{r}{(2.15\%)} &
+  \multicolumn{1}{r}{(97.85\%)} &
+  \multicolumn{1}{r}{(3.95\%)} &
+  \multicolumn{1}{r}{(96.05\%)} &
+  \multicolumn{1}{r}{(3.62\%)} &
+  \multicolumn{1}{r}{(96.38\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Black/African American only\hspace{1em}} &
+  \multicolumn{1}{|r}{160} &
+  \multicolumn{1}{r}{2,764} &
+  \multicolumn{1}{r}{42} &
+  \multicolumn{1}{r}{2,882} &
+  \multicolumn{1}{r}{87} &
+  \multicolumn{1}{r}{2,837} &
+  \multicolumn{1}{r}{139} &
+  \multicolumn{1}{r}{2,785} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(5.47\%)} &
+  \multicolumn{1}{r}{(94.53\%)} &
+  \multicolumn{1}{r}{(1.44\%)} &
+  \multicolumn{1}{r}{(98.56\%)} &
+  \multicolumn{1}{r}{(2.98\%)} &
+  \multicolumn{1}{r}{(97.02\%)} &
+  \multicolumn{1}{r}{(4.75\%)} &
+  \multicolumn{1}{r}{(95.25\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Asian only\hspace{1em}} &
+  \multicolumn{1}{|r}{54} &
+  \multicolumn{1}{r}{1,541} &
+  \multicolumn{1}{r}{19} &
+  \multicolumn{1}{r}{1,576} &
+  \multicolumn{1}{r}{22} &
+  \multicolumn{1}{r}{1,573} &
+  \multicolumn{1}{r}{28} &
+  \multicolumn{1}{r}{1,567} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(3.39\%)} &
+  \multicolumn{1}{r}{(96.61\%)} &
+  \multicolumn{1}{r}{(1.19\%)} &
+  \multicolumn{1}{r}{(98.81\%)} &
+  \multicolumn{1}{r}{(1.38\%)} &
+  \multicolumn{1}{r}{(98.62\%)} &
+  \multicolumn{1}{r}{(1.76\%)} &
+  \multicolumn{1}{r}{(98.24\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{AIAN only\hspace{1em}} &
+  \multicolumn{1}{|r}{19} &
+  \multicolumn{1}{r}{237} &
+  \multicolumn{1}{r}{5} &
+  \multicolumn{1}{r}{251} &
+  \multicolumn{1}{r}{14} &
+  \multicolumn{1}{r}{242} &
+  \multicolumn{1}{r}{9} &
+  \multicolumn{1}{r}{247} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(7.42\%)} &
+  \multicolumn{1}{r}{(92.58\%)} &
+  \multicolumn{1}{r}{(1.95\%)} &
+  \multicolumn{1}{r}{(98.05\%)} &
+  \multicolumn{1}{r}{(5.47\%)} &
+  \multicolumn{1}{r}{(94.53\%)} &
+  \multicolumn{1}{r}{(3.52\%)} &
+  \multicolumn{1}{r}{(96.48\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{AIAN and any other group\hspace{1em}} &
+  \multicolumn{1}{|r}{12} &
+  \multicolumn{1}{r}{185} &
+  \multicolumn{1}{r}{5} &
+  \multicolumn{1}{r}{192} &
+  \multicolumn{1}{r}{10} &
+  \multicolumn{1}{r}{187} &
+  \multicolumn{1}{r}{17} &
+  \multicolumn{1}{r}{180} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(6.09\%)} &
+  \multicolumn{1}{r}{(93.91\%)} &
+  \multicolumn{1}{r}{(2.54\%)} &
+  \multicolumn{1}{r}{(97.46\%)} &
+  \multicolumn{1}{r}{(5.08\%)} &
+  \multicolumn{1}{r}{(94.92\%)} &
+  \multicolumn{1}{r}{(8.63\%)} &
+  \multicolumn{1}{r}{(91.37\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Other single and multiple races\hspace{1em}} &
+  \multicolumn{1}{|r}{7} &
+  \multicolumn{1}{r}{332} &
+  \multicolumn{1}{r}{2} &
+  \multicolumn{1}{r}{337} &
+  \multicolumn{1}{r}{6} &
+  \multicolumn{1}{r}{333} &
+  \multicolumn{1}{r}{5} &
+  \multicolumn{1}{r}{334} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(2.06\%)} &
+  \multicolumn{1}{r}{(97.94\%)} &
+  \multicolumn{1}{r}{(0.59\%)} &
+  \multicolumn{1}{r}{(99.41\%)} &
+  \multicolumn{1}{r}{(1.77\%)} &
+  \multicolumn{1}{r}{(98.23\%)} &
+  \multicolumn{1}{r}{(1.47\%)} &
+  \multicolumn{1}{r}{(98.53\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{RESIDENCE} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Owned or being bought\hspace{1em}} &
+  \multicolumn{1}{|r}{1,175} &
+  \multicolumn{1}{r}{15,993} &
+  \multicolumn{1}{r}{342} &
+  \multicolumn{1}{r}{16,826} &
+  \multicolumn{1}{r}{661} &
+  \multicolumn{1}{r}{16,507} &
+  \multicolumn{1}{r}{603} &
+  \multicolumn{1}{r}{16,565} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(6.84\%)} &
+  \multicolumn{1}{r}{(93.16\%)} &
+  \multicolumn{1}{r}{(1.99\%)} &
+  \multicolumn{1}{r}{(98.01\%)} &
+  \multicolumn{1}{r}{(3.85\%)} &
+  \multicolumn{1}{r}{(96.15\%)} &
+  \multicolumn{1}{r}{(3.51\%)} &
+  \multicolumn{1}{r}{(96.49\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Rented\hspace{1em}} &
+  \multicolumn{1}{|r}{362} &
+  \multicolumn{1}{r}{6,771} &
+  \multicolumn{1}{r}{133} &
+  \multicolumn{1}{r}{7,000} &
+  \multicolumn{1}{r}{225} &
+  \multicolumn{1}{r}{6,908} &
+  \multicolumn{1}{r}{268} &
+  \multicolumn{1}{r}{6,865} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(5.08\%)} &
+  \multicolumn{1}{r}{(94.92\%)} &
+  \multicolumn{1}{r}{(1.86\%)} &
+  \multicolumn{1}{r}{(98.14\%)} &
+  \multicolumn{1}{r}{(3.15\%)} &
+  \multicolumn{1}{r}{(96.85\%)} &
+  \multicolumn{1}{r}{(3.76\%)} &
+  \multicolumn{1}{r}{(96.24\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Other arrangement\hspace{1em}} &
+  \multicolumn{1}{|r}{45} &
+  \multicolumn{1}{r}{486} &
+  \multicolumn{1}{r}{17} &
+  \multicolumn{1}{r}{514} &
+  \multicolumn{1}{r}{25} &
+  \multicolumn{1}{r}{506} &
+  \multicolumn{1}{r}{34} &
+  \multicolumn{1}{r}{497} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(8.47\%)} &
+  \multicolumn{1}{r}{(91.53\%)} &
+  \multicolumn{1}{r}{(3.20\%)} &
+  \multicolumn{1}{r}{(96.80\%)} &
+  \multicolumn{1}{r}{(4.71\%)} &
+  \multicolumn{1}{r}{(95.29\%)} &
+  \multicolumn{1}{r}{(6.40\%)} &
+  \multicolumn{1}{r}{(93.60\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{REGION} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Northeast\hspace{1em}} &
+  \multicolumn{1}{|r}{273} &
+  \multicolumn{1}{r}{3,797} &
+  \multicolumn{1}{r}{71} &
+  \multicolumn{1}{r}{3,999} &
+  \multicolumn{1}{r}{124} &
+  \multicolumn{1}{r}{3,946} &
+  \multicolumn{1}{r}{118} &
+  \multicolumn{1}{r}{3,952} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(6.71\%)} &
+  \multicolumn{1}{r}{(93.29\%)} &
+  \multicolumn{1}{r}{(1.74\%)} &
+  \multicolumn{1}{r}{(98.26\%)} &
+  \multicolumn{1}{r}{(3.05\%)} &
+  \multicolumn{1}{r}{(96.95\%)} &
+  \multicolumn{1}{r}{(2.90\%)} &
+  \multicolumn{1}{r}{(97.10\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{Midwest\hspace{1em}} &
+  \multicolumn{1}{|r}{388} &
+  \multicolumn{1}{r}{5,260} &
+  \multicolumn{1}{r}{114} &
+  \multicolumn{1}{r}{5,534} &
+  \multicolumn{1}{r}{231} &
+  \multicolumn{1}{r}{5,417} &
+  \multicolumn{1}{r}{202} &
+  \multicolumn{1}{r}{5,446} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(6.87\%)} &
+  \multicolumn{1}{r}{(93.13\%)} &
+  \multicolumn{1}{r}{(2.02\%)} &
+  \multicolumn{1}{r}{(97.98\%)} &
+  \multicolumn{1}{r}{(4.09\%)} &
+  \multicolumn{1}{r}{(95.91\%)} &
+  \multicolumn{1}{r}{(3.58\%)} &
+  \multicolumn{1}{r}{(96.42\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{South\hspace{1em}} &
+  \multicolumn{1}{|r}{636} &
+  \multicolumn{1}{r}{8,621} &
+  \multicolumn{1}{r}{212} &
+  \multicolumn{1}{r}{9,045} &
+  \multicolumn{1}{r}{380} &
+  \multicolumn{1}{r}{8,877} &
+  \multicolumn{1}{r}{399} &
+  \multicolumn{1}{r}{8,858} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(6.87\%)} &
+  \multicolumn{1}{r}{(93.13\%)} &
+  \multicolumn{1}{r}{(2.29\%)} &
+  \multicolumn{1}{r}{(97.71\%)} &
+  \multicolumn{1}{r}{(4.11\%)} &
+  \multicolumn{1}{r}{(95.89\%)} &
+  \multicolumn{1}{r}{(4.31\%)} &
+  \multicolumn{1}{r}{(95.69\%)} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} &
+  \multicolumn{1}{r}{} \\
+\multicolumn{1}{r}{West\hspace{1em}} &
+  \multicolumn{1}{|r}{285} &
+  \multicolumn{1}{r}{5,572} &
+  \multicolumn{1}{r}{95} &
+  \multicolumn{1}{r}{5,762} &
+  \multicolumn{1}{r}{176} &
+  \multicolumn{1}{r}{5,681} &
+  \multicolumn{1}{r}{186} &
+  \multicolumn{1}{r}{5,671} \\
+\multicolumn{1}{r}{} &
+  \multicolumn{1}{|r}{(4.87\%)} &
+  \multicolumn{1}{r}{(95.13\%)} &
+  \multicolumn{1}{r}{(1.62\%)} &
+  \multicolumn{1}{r}{(98.38\%)} &
+  \multicolumn{1}{r}{(3.00\%)} &
+  \multicolumn{1}{r}{(97.00\%)} &
+  \multicolumn{1}{r}{(3.18\%)} &
+  \multicolumn{1}{r}{(96.82\%)} \\
+\cline{1-9}
+\end{tabular}
+\end{document}
